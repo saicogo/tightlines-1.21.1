@@ -1,13 +1,4 @@
 {
-  "itemGroup.tightlines": "Example Mod Tab",
-  "block.tightlines.example_block": "Example Block",
-  "item.tightlines.example_item": "Example Item",
-
-  "tightlines.configuration.title": "TIght Lines! Configs",
-  "tightlines.configuration.section.tightlines.common.toml": "TIght Lines! Configs",
-  "tightlines.configuration.section.tightlines.common.toml.title": "TIght Lines! Configs",
-  "tightlines.configuration.items": "Item List",
-  "tightlines.configuration.logDirtBlock": "Log Dirt Block",
-  "tightlines.configuration.magicNumberIntroduction": "Magic Number Text",
-  "tightlines.configuration.magicNumber": "Magic Number"
+  "itemGroup.tightlines": "Tight Lines!",
+  "item.tightlines.wooden_rod": "Wooden rod"
 }
