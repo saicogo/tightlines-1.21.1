@@ -74,6 +74,26 @@ public class TightLinesConfig {
         NETHERITE_ROD_TOUGHNESS = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
         NETHERITE_ROD_MAXKG = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
 
+        COPPER_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
+        COPPER_REEL_MAXGK = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
+        COPPER_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
+
+        IRON_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
+        IRON_REEL_MAXGK = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
+        IRON_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
+
+        GOLDEN_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
+        GOLDEN_REEL_MAXGK = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
+        GOLDEN_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
+
+        DIAMOND_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
+        DIAMOND_REEL_MAXGK = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
+        DIAMOND_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
+
+        NETHERITE_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
+        NETHERITE_REEL_MAXGK = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
+        NETHERITE_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);
+
         BUILDER.pop();
         SPEC = BUILDER.build();
     }
