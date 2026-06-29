@@ -6,6 +6,7 @@ public class TightLinesConfig {
     public static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
     public static final ModConfigSpec SPEC;
+    //Rod
     public static final ModConfigSpec.IntValue WOODEN_ROD_RANGE;
     public static final ModConfigSpec.DoubleValue WOODEN_ROD_TOUGHNESS;
     public static final ModConfigSpec.DoubleValue WOODEN_ROD_MAXKG;
@@ -24,6 +25,27 @@ public class TightLinesConfig {
     public static final ModConfigSpec.IntValue NETHERITE_ROD_RANGE;
     public static final ModConfigSpec.DoubleValue NETHERITE_ROD_TOUGHNESS;
     public static final ModConfigSpec.DoubleValue NETHERITE_ROD_MAXKG;
+
+    //Reel
+    public static final ModConfigSpec.DoubleValue COPPER_REEL_RANGE;
+    public static final ModConfigSpec.DoubleValue COPPER_REEL_MAXGK;
+    public static final ModConfigSpec.DoubleValue COPPER_REEL_SPEED;
+    public static final ModConfigSpec.DoubleValue IRON_REEL_RANGE;
+    public static final ModConfigSpec.DoubleValue IRON_REEL_MAXGK;
+    public static final ModConfigSpec.DoubleValue IRON_REEL_SPEED;
+    public static final ModConfigSpec.DoubleValue GOLDEN_REEL_RANGE;
+    public static final ModConfigSpec.DoubleValue GOLDEN_REEL_MAXGK;
+    public static final ModConfigSpec.DoubleValue GOLDEN_REEL_SPEED;
+    public static final ModConfigSpec.DoubleValue DIAMOND_REEL_RANGE;
+    public static final ModConfigSpec.DoubleValue DIAMOND_REEL_MAXGK;
+    public static final ModConfigSpec.DoubleValue DIAMOND_REEL_SPEED;
+    public static final ModConfigSpec.DoubleValue NETHERITE_REEL_RANGE;
+    public static final ModConfigSpec.DoubleValue NETHERITE_REEL_MAXGK;
+    public static final ModConfigSpec.DoubleValue NETHERITE_REEL_SPEED;
+
+    //Line
+
+    
 
     static {
         BUILDER.comment("Tight Lines! config").push("rods");
