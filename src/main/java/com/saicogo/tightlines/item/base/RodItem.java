@@ -16,17 +16,17 @@ public class RodItem extends Item {
     }
 
     public int getCastRange(){
-        return TightLinesConfig.WOODEN_ROD_RANGE.get();
+        return 0;
     }
 
     public Double getToughness(){
-        return TightLinesConfig.WOODEN_ROD_TOUGHNESS.get();
+        return 0.0;
     }
 
     public Double getMaxKg(){
-        return TightLinesConfig.WOODEN_ROD_MAXKG.get();
+        return 0.0;
     }
-
+    /*
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand){
         ItemStack itemStack = player.getItemInHand(hand);
@@ -35,4 +35,5 @@ public class RodItem extends Item {
         }
         return InteractionResultHolder.sidedSuccess(itemStack, level.isClientSide);
     }
+     */
 }
