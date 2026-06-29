@@ -1,5 +1,14 @@
 {
   "itemGroup.tightlines": "Ни Хвоста Ни Чешуи!",
+
   "item.tightlines.test_rod": "Тестовая удочка",
-  "item.tightlines.wooden_rod": "Деревянная удочка"
+  "item.tightlines.iron_rod": "Железная удочка",
+  "item.tightlines.golden_rod": "Золотая удочка",
+  "item.tightlines.diamond_rod": "Алмазная удочка",
+  "item.tightlines.netherite_rod": "Незеритовая удочка",
+
+  "item.tightlines.iron_reel": "Железная катушка",
+  "item.tightlines.golden_reel": "Золотая катушка",
+  "item.tightlines.diamond_reel": "Алмазная катушка",
+  "item.tightlines.netherite_reel": "Незеритовая катушка"
 }

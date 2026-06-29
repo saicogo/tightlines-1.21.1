@@ -1,5 +1,14 @@
 {
   "itemGroup.tightlines": "Tight Lines!",
+  
   "item.tightlines.test_rod": "Test rod",
-  "item.tightlines.wooden_rod": "Wooden rod"
+  "item.tightlines.iron_rod": "Iron rod",
+  "item.tightlines.golden_rod": "Golden rod",
+  "item.tightlines.diamond_rod": "Diamond rod",
+  "item.tightlines.netherite_rod": "Netherite rod",
+
+  "item.tightlines.iron_reel": "Iron reel",
+  "item.tightlines.golden_reel": "Golden reel",
+  "item.tightlines.diamond_reel": "Diamond reel",
+  "item.tightlines.netherite_reel": "Netherite reel"
 }

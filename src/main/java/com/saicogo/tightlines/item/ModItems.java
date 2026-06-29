@@ -1,6 +1,10 @@
 package com.saicogo.tightlines.item;
 
 import com.saicogo.tightlines.TightLines;
+import com.saicogo.tightlines.item.reel.DiamondReelItem;
+import com.saicogo.tightlines.item.reel.GoldenReelItem;
+import com.saicogo.tightlines.item.reel.IronReelItem;
+import com.saicogo.tightlines.item.reel.NetheriteReelItem;
 import com.saicogo.tightlines.item.rod.*;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -30,7 +34,7 @@ public class ModItems {
             "diamond_rod",
             DiamondRodItem::new,
             new Item.Properties()
-                    .durability(1562)
+                    .durability(768)
                     .stacksTo(1)
     );
 
@@ -38,13 +42,47 @@ public class ModItems {
             "netherite_rod",
             NetheriteRodItem::new,
             new Item.Properties()
-                    .durability(2032)
+                    .durability(1536)
                     .stacksTo(1)
     );
 
     public static final DeferredItem<TestRodItem> TEST_ROD = ITEMS.registerItem(
             "test_rod",
             TestRodItem::new,
-            new Item.Properties().durability(-1)
+            new Item.Properties()
+                    .durability(-1)
+                    .stacksTo(1)
+    );
+
+    public static final DeferredItem<IronReelItem> IRON_REEL = ITEMS.registerItem(
+            "iron_reel",
+            IronReelItem::new,
+            new Item.Properties()
+                    .durability(250)
+                    .stacksTo(1)
+    );
+
+    public static final DeferredItem<GoldenReelItem> GOLDEN_REEL = ITEMS.registerItem(
+            "golden_reel",
+            GoldenReelItem::new,
+            new Item.Properties()
+                    .durability(32)
+                    .stacksTo(1)
+    );
+
+    public static final DeferredItem<DiamondReelItem> DIAMOND_REEL = ITEMS.registerItem(
+            "diamond_reel",
+            DiamondReelItem::new,
+            new Item.Properties()
+                    .durability(768)
+                    .stacksTo(1)
+    );
+
+    public static final DeferredItem<NetheriteReelItem> NETHERITE_REEL = ITEMS.registerItem(
+            "netherite_reel",
+            NetheriteReelItem::new,
+            new Item.Properties()
+                    .durability(32)
+                    .stacksTo(1)
     );
 }

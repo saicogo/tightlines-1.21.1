@@ -34,6 +34,10 @@ public class TightLines {
                 output.accept(ModItems.GOLDEN_ROD);
                 output.accept(ModItems.DIAMOND_ROD);
                 output.accept(ModItems.NETHERITE_ROD);
+                output.accept(ModItems.IRON_REEL);
+                output.accept(ModItems.GOLDEN_REEL);
+                output.accept(ModItems.DIAMOND_REEL);
+                output.accept(ModItems.NETHERITE_REEL);
             }).build());
 
 
