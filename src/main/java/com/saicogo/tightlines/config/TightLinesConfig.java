@@ -60,6 +60,7 @@ public class TightLinesConfig {
         BUILDER.pop();
 
         BUILDER.push("reels");
+
         IRON_REEL_RANGE = BUILDER.comment("default = 10, min = 5, max = 1000").defineInRange("iron_rod_range", 10, 5, 1000);
         IRON_REEL_MAXKG = BUILDER.comment("default = 1.5, min = 0.01, max = 10.0").defineInRange("iron_rod_toughness", 1.5, 0.01, 10.0);
         IRON_REEL_SPEED = BUILDER.comment("default = 5.0, min = 0.5, max = 1000.0").defineInRange("iron_rod_maxkg", 1.0, 0.01, 1000.0);

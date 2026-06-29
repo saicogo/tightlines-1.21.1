@@ -30,6 +30,10 @@ public class TightLines {
             .icon(() -> ModItems.TEST_ROD.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.TEST_ROD.get());
+                output.accept(ModItems.IRON_ROD);
+                output.accept(ModItems.GOLDEN_ROD);
+                output.accept(ModItems.DIAMOND_ROD);
+                output.accept(ModItems.NETHERITE_ROD);
             }).build());
 
 
